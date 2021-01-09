@@ -12,8 +12,8 @@
 [Table of contents]
 
 1.0 Variables
-2.0 General Styles 
-3.0 Text Styles 
+2.0 General Styles
+3.0 Text Styles
 -------------------------------------------------------------------*/
 /*--------------------------------------------------------------
 1.0 Variables
@@ -469,12 +469,12 @@
   padding-left: 15px; }
   .wt-image-wrapper.text-style-19 .wt-image-info:before {
     content: '';
-    width: 5px;
+    width: 10px;
     height: 60%;
     position: absolute;
     left: 0;
     bottom: 20%;
-    background-color: #ff2222; }
+    background-color: #4acaa8; }
   .wt-image-wrapper.text-style-19 .wt-image-info .wt-title {
     font-size: 32px;
     font-weight: 500;
