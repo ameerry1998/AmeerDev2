@@ -481,92 +481,77 @@ input, select, textarea {
 
 
 
-/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
-
-
-#banner-typing-text{
-	width: 100%;
-	color: #4acaa8;
-	font-size: 2em;
-	font-weight: 700;
-	margin-top: -0.75em;
-
-}
-
-
-/* end of tpying text and beginnging of buttons */
-
-.Vbtn-1 {
-	background:transparent;
-	text-align: center;
-	float:left;
-	color:white;
-}
-.Vbtn-1 svg {
-	height: 50px;
-	width: 165px;
-	left: 0%;
-	position: absolute;
-	top: -5px;
-}
-.Vbtn-1 rect {
-	fill: none;
-	stroke: white;
-	stroke-width: 4;
-	stroke-dasharray: 422, 0;
-	transition: all 450ms linear 0s;
-}
-.Vbtn-1:hover {
-	background: rgba(225, 51, 45, 0);
-	color: white;
-	font-weight: 900;
-	letter-spacing: 1px;
-	transition: all 150ms linear 0s;
-}
-.Vbtn-1:hover rect {
-	stroke-width: 5;
-	stroke-dasharray: 15, 310;
-	stroke-dashoffset: 48;
-	-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-	transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-}
-.Vbtn-2 svg {
-	height: 50px;
-	width: 10px;
-	left: -55%;
-	position: absolute;
-	top: 0;
-}
-
-.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
-
-.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
-
-.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
-
-.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
-
-/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
 
 
 
 
+				/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
 
 
+				#banner-typing-text{
+					width: 100%;
+					color: #4acaa8;
+					font-size: 2em;
+					font-weight: 700;
+					margin-top: -0.75em;
+
+				}
 
 
+				/* end of tpying text and beginnging of buttons */
 
+				.Vbtn-1 {
+					background:transparent;
+					text-align: center;
+					float:left;
+					color:white;
+				}
+				.Vbtn-1 svg {
+					height: 50px;
+					width: 165px;
+					left: 0%;
+					position: absolute;
+					top: -5px;
+				}
+				.Vbtn-1 rect {
+					fill: none;
+					stroke: white;
+					stroke-width: 4;
+					stroke-dasharray: 422, 0;
+					transition: all 450ms linear 0s;
+				}
+				.Vbtn-1:hover {
+					background: rgba(225, 51, 45, 0);
+					color: white;
+					font-weight: 900;
+					letter-spacing: 1px;
+					transition: all 150ms linear 0s;
+				}
+				.Vbtn-1:hover rect {
+					stroke-width: 5;
+					stroke-dasharray: 15, 310;
+					stroke-dashoffset: 48;
+					-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+					transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+				}
+				.Vbtn-2 svg {
+					height: 50px;
+					width: 10px;
+					left: -55%;
+					position: absolute;
+					top: 0;
+				}
 
+				.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
+				.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
+				.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
 
+				.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
 
-
-
-
-
-
+				/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
 
 
@@ -829,8 +814,6 @@ input, select, textarea {
 							padding-top: 4em;
 						}
 
-
-
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -1076,73 +1059,71 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
-/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
+						/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
 
-						#banner-typing-text{
-							width: 100%;
-							color: #4acaa8;
-							font-size: 1.8em;
-							font-weight: 700;
-							margin-top: -0.75em;
+												#banner-typing-text{
+													width: 100%;
+													color: #4acaa8;
+													font-size: 1.8em;
+													font-weight: 700;
+													margin-top: -0.75em;
 
-						}
-
-
-						/* end of tpying text and beginnging of buttons */
-
-												.Vbtn-1 {
-													background:transparent;
-													text-align: center;
-													float:left;
-													color:white;
-												}
-												.Vbtn-1 svg {
-													height: 40px;
-													width: 110px;
-													left: 0%;
-													position: absolute;
-													top: -5px;
-												}
-												.Vbtn-1 rect {
-													fill: none;
-													stroke: white;
-													stroke-width: 4;
-													stroke-dasharray: 422, 0;
-													transition: all 450ms linear 0s;
-												}
-												.Vbtn-1:hover {
-													background: rgba(225, 51, 45, 0);
-													color: white;
-													font-weight: 900;
-													letter-spacing: 1px;
-													transition: all 150ms linear 0s;
-												}
-												.Vbtn-1:hover rect {
-													stroke-width: 5;
-													stroke-dasharray: 15, 310;
-													stroke-dashoffset: 48;
-													-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-													transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-												}
-												.Vbtn-2 svg {
-													height: 50px;
-													width: 10px;
-													left: -55%;
-													position: absolute;
-													top: 0;
 												}
 
-												.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
-												.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
+												/* end of tpying text and beginnging of buttons */
 
-												.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
+																		.Vbtn-1 {
+																			background:transparent;
+																			text-align: center;
+																			float:left;
+																			color:white;
+																		}
+																		.Vbtn-1 svg {
+																			height: 40px;
+																			width: 110px;
+																			left: 0%;
+																			position: absolute;
+																			top: -5px;
+																		}
+																		.Vbtn-1 rect {
+																			fill: none;
+																			stroke: white;
+																			stroke-width: 4;
+																			stroke-dasharray: 422, 0;
+																			transition: all 450ms linear 0s;
+																		}
+																		.Vbtn-1:hover {
+																			background: rgba(225, 51, 45, 0);
+																			color: white;
+																			font-weight: 900;
+																			letter-spacing: 1px;
+																			transition: all 150ms linear 0s;
+																		}
+																		.Vbtn-1:hover rect {
+																			stroke-width: 5;
+																			stroke-dasharray: 15, 310;
+																			stroke-dashoffset: 48;
+																			-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																			transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																		}
+																		.Vbtn-2 svg {
+																			height: 50px;
+																			width: 10px;
+																			left: -55%;
+																			position: absolute;
+																			top: 0;
+																		}
 
-												.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
+																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
-												/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
+																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
+																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1.18em;}
 
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
+
+																		/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
 		}
 
@@ -1389,73 +1370,72 @@ input, select, textarea {
 							padding-top: 3em;
 						}
 
-/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
+						/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
 
 
-#banner-typing-text{
-	width: 100%;
-	color: #4acaa8;
-	font-size: 1.3em;
-	font-weight: 700;
-	margin-top: -2em;
+						#banner-typing-text{
+							width: 100%;
+							color: #4acaa8;
+							font-size: 1.3em;
+							font-weight: 700;
+							margin-top: -2em;
 
-}
+						}
 
 
-/* end of tpying text and beginnging of buttons */
-												.Vbtn-1 {
-													background:transparent;
-													text-align: center;
-													float:left;
-													color:white;
-												}
-												.Vbtn-1 svg {
-													height: 40px;
-													width: 110px;
-													left: 0%;
-													position: absolute;
-													top: -5px;
+						/* end of tpying text and beginnging of buttons */
+																		.Vbtn-1 {
+																			background:transparent;
+																			text-align: center;
+																			float:left;
+																			color:white;
+																		}
+																		.Vbtn-1 svg {
+																			height: 40px;
+																			width: 110px;
+																			left: 0%;
+																			position: absolute;
+																			top: -5px;
 
-												}
-												.Vbtn-1 rect {
-													fill: none;
-													stroke: white;
-													stroke-width: 4;
-													stroke-dasharray: 422, 0;
-													transition: all 450ms linear 0s;
-												}
-												.Vbtn-1:hover {
-													background: rgba(225, 51, 45, 0);
-													color: white;
-													font-weight: 900;
-													letter-spacing: 1px;
-													transition: all 150ms linear 0s;
-												}
-												.Vbtn-1:hover rect {
-													stroke-width: 5;
-													stroke-dasharray: 15, 310;
-													stroke-dashoffset: 48;
-													-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-													transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-												}
-												.Vbtn-2 svg {
-													height: 50px;
-													width: 10px;
-													left: -55%;
-													position: absolute;
-													top: 0;
-												}
+																		}
+																		.Vbtn-1 rect {
+																			fill: none;
+																			stroke: white;
+																			stroke-width: 4;
+																			stroke-dasharray: 422, 0;
+																			transition: all 450ms linear 0s;
+																		}
+																		.Vbtn-1:hover {
+																			background: rgba(225, 51, 45, 0);
+																			color: white;
+																			font-weight: 900;
+																			letter-spacing: 1px;
+																			transition: all 150ms linear 0s;
+																		}
+																		.Vbtn-1:hover rect {
+																			stroke-width: 5;
+																			stroke-dasharray: 15, 310;
+																			stroke-dashoffset: 48;
+																			-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																			transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																		}
+																		.Vbtn-2 svg {
+																			height: 50px;
+																			width: 10px;
+																			left: -55%;
+																			position: absolute;
+																			top: 0;
+																		}
 
-												.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
-												.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
-												.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1em;}
+																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:1em;}
 
-												.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1em; padding-left:70%;}
 
-/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
-
+						/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
 
 		}
@@ -1951,72 +1931,85 @@ input, select, textarea {
 
 
 
-/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
+						/* //////////////////////////////////////////Start of header typing text and buttons///////////////////////////// */
 
-#banner-typing-text{
-	width: 120%;
-	color: #4acaa8;
-	font-size: 0.8em;
-	font-weight: 700;
-	margin-top: -0.75em;
-}
+						#banner-typing-text{
+							width: 120%;
+							color: #4acaa8;
+							font-size: 0.75em;
+							font-weight: 700;
+							margin-top: -0.75em;
+						}
 
 
-/* end of tpying text and beginnging of buttons */
+						/* end of tpying text and beginnging of buttons */
 
-												.Vbtn-1 {
-													background:transparent;
-													text-align: center;
-													float:left;
-													color:white;
-												}
-												.Vbtn-1 svg {
-													height: 30px;
-													width: 80px;
-													left: 0%;
-													position: absolute;
-													top: 0px;
-												}
-												.Vbtn-1 rect {
-													fill: none;
-													stroke: white;
-													stroke-width: 4;
-													stroke-dasharray: 422, 0;
-													transition: all 450ms linear 0s;
-												}
-												.Vbtn-1:hover {
-													background: rgba(225, 51, 45, 0);
-													color: white;
-													font-weight: 900;
-													letter-spacing: 1px;
-													transition: all 150ms linear 0s;
-												}
-												.Vbtn-1:hover rect {
-													stroke-width: 5;
-													stroke-dasharray: 15, 310;
-													stroke-dashoffset: 48;
-													-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-													transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
-												}
-												.Vbtn-2 svg {
-													height: 50px;
-													width: 10px;
-													left: -55%;
-													position: absolute;
-													top: 0;
-												}
+																		.Vbtn-1 {
+																			background:transparent;
+																			text-align: center;
+																			float:left;
+																			color:white;
+																		}
+																		.Vbtn-1 svg {
+																			height: 30px;
+																			width: 80px;
+																			left: 0%;
+																			position: absolute;
+																			top: 0px;
+																		}
+																		.Vbtn-1 rect {
+																			fill: none;
+																			stroke: white;
+																			stroke-width: 4;
+																			stroke-dasharray: 422, 0;
+																			transition: all 450ms linear 0s;
+																		}
+																		.Vbtn-1:hover {
+																			background: rgba(225, 51, 45, 0);
+																			color: white;
+																			font-weight: 900;
+																			letter-spacing: 1px;
+																			transition: all 150ms linear 0s;
+																		}
+																		.Vbtn-1:hover rect {
+																			stroke-width: 5;
+																			stroke-dasharray: 15, 310;
+																			stroke-dashoffset: 48;
+																			-webkit-transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																			transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+																		}
+																		.Vbtn-2 svg {
+																			height: 50px;
+																			width: 10px;
+																			left: -55%;
+																			position: absolute;
+																			top: 0;
+																		}
 
-												.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text1{position:absolute; top: 50%; left: 80%; transform: translate(-50%, -50%);}
 
-												.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
+																		.banner-text2{color:white; width: 500; position:absolute; top: 57%; left: 80%; transform: translate(-50%, -50%);}
 
-												.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
+																		.banner-text-row-1-text-1{color:white; border-bottom:0px;  font-size:0.8em;}
 
-												.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:0.8em; padding-left:85%;}
+																		.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:0.8em; padding-left:85%;}
 
-	/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
+							/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
+
 
 		}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Container */
 
@@ -2511,7 +2504,7 @@ input, select, textarea {
 				display: block;
 				width: 100%;
 			}
-		/* height for banner */
+
 		.image.main {
 			display: block;
 			height: 45em;
@@ -3629,11 +3622,4 @@ input, select, textarea {
 				padding: 0;
 			}
 
-
-
-
 	}
-
-
-
-//////////////////////////////BUTTONS//////////////////////////////////
