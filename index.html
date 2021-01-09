@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/3dimagehover.css" />
 	</head>
 	<body class="is-preload">
 
@@ -93,16 +94,32 @@
 						<!-- Two -->
 						<section id="one">
 							<div class="container">
-								<header class="major">
-									<h2>Hi! I'm Ameer</h2>
-									<p>I'm a computer science student at Brandeis University<br />
-									Here you'll find my <a href="#two">projects</a>, <a href="http://html5up.net">resume</a> and other information.
-									<br>
-									For coding tutorials, game theory, and book reviews check out my <a href="http://html5up.net">blog</a>.
 
-								</p>
-								</header>
+								<div class="row">
+
+								</div>
+
+									<h3>About me:</h3>
+									<span class="image left">
+
+										<div class="wt-image-wrapper thumb text-style-12" style="--wt-border-radius:15px; width:300px;">
+											<div class="wt-image" style="transition: all 0.2s linear 0s; transform: rotateY(0deg) rotateX(0deg);">
+												<img src="images/20210108_211207.jpg" alt="" style="width:300px;"/>
+												<div class="wt-image-info">
+													<div class="wt-title" style="font-size=0.2em;"><a href="mailto:Ameerrayan@brandeis.edu">Email</a></div>
+													<div class="wt-desc"><a href="tel:13134232863">   +1 313 423 2863</a></div>
+												</div>
+											</div>
+									</div>
+
+									</span>
+									<p>Hi I'm Ameer, I'm currently a junior studying Computer Science at Brandeis university. I'm a Talented Software Developer experienced in producing and updating Web Applications. Expert in diverse programming languages and frameworks, including Python, Java, React, and Django among other things.
+									I'm excited to work with your company to optimize structures and processes to accomplish technical targets and promote company loyalty.
+									</p>
+
 								</span>
+
+								<!-- end of section one -->
 							</div>
 						</section>
 
@@ -527,6 +544,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/3dimagehover.js"></script>
 		<!-- Script for the banner typing effect -->
 		<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
 		<script>
@@ -553,6 +571,15 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 				.delete(24)
 				.type(" Business and Psych Minor")
 				.go();
+		</script>
+
+		<script type="text/javascript">
+			(function(){
+				const img1 = new ImageHover3d({
+					el: $('.thumb'),
+					pivot: 'center'
+				});
+			})();
 		</script>
 	</body>
 </html>
