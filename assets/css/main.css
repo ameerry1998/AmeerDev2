@@ -552,6 +552,30 @@ input, select, textarea {
 
 				.banner-text-row-1-text-2{color:white; border-bottom:0px;  font-size:1.18em; padding-left:85%;}
 
+				/* ////////projects h4/////////// */
+
+				.Projects-h4{
+					color: color:#474448;
+					position: absolute;
+					top:-40px;
+				}
+
+				/* ////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 				/* //////////////////////////////End of header typing text and buttons/////////////////////////////////////// */
 
 
@@ -1383,6 +1407,16 @@ input, select, textarea {
 
 						}
 
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							top:15px;
+						}
+
+						/* ////////////////////////////// */
+
 
 						/* end of tpying text and beginnging of buttons */
 																		.Vbtn-1 {
@@ -1696,6 +1730,17 @@ input, select, textarea {
 
 						}
 
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							font-size: 0.83em;
+							top:4px;
+						}
+
+						/* ////////////////////////////// */
+
 
 						/* end of tpying text and beginnging of buttons */
 																		.Vbtn-1 {
@@ -2008,6 +2053,17 @@ input, select, textarea {
 							font-weight: 700;
 							margin-top: -0.75em;
 						}
+
+						/* ////////projects h4/////////// */
+
+						.Projects-h4{
+							color: color:#474448;
+							position: absolute;
+							font-size: 0.8em;
+							top:0px;
+						}
+
+						/* ////////////////////////////// */
 
 
 						/* end of tpying text and beginnging of buttons */
