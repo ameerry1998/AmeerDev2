@@ -499,6 +499,10 @@ input, select, textarea {
 
 				}
 
+				.Book-Review-Column{
+						width: 33.33333%;
+				}
+
 
 				/* end of tpying text and beginnging of buttons */
 
@@ -1740,6 +1744,11 @@ input, select, textarea {
 						}
 
 						/* ////////////////////////////// */
+
+
+						.Book-Review-Column{
+								width: 100%;
+						}
 
 
 						/* end of tpying text and beginnging of buttons */
